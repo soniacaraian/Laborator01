@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
     tools:context="ro.pub.cs.systems.eim.lab01.myfirstandroidapplication.MainActivity">
 
     <ImageView
@@ -24,8 +26,9 @@
 
     <EditText
         android:id="@+id/user_name_edit_text"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:ems="10"
         android:inputType="textPersonName" >
 
